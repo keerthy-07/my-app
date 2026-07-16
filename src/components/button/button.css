@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.button {
+    display: flex;
+
+}
+
+.log {
+    position: fixed;
+    display: flex;
+    background: transparent;
+    color: rgb(248, 248, 248);
+    right: 110px;
+    bottom: 630px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 16;
+    cursor: pointer;
+    
+}
+
+.block {
+    display: flex;    
+    bottom: 630px;
+    position: fixed;
+    background: white;
+    color: black;
+    right: 200px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 16;
+    cursor: pointer;
+    
+}
+
+.extra {
+    
+    padding: 20px 25px;
+    bottom: 300px;
+    right: 450px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #000;
+    z-index: 15;
+} */

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover {
+    width: 100%;
+    height: 450px;
+    background: #323131;
+    background-image: url("C:\\Users\\Admin\\Downloads\\beautiful-winter-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile {
+    width: 85%;
+    margin: auto;
+    padding: 40px 100px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 70%;
+}
+
+.left img {
+    width: 180px;
+    height: 190px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: -120px;
+    margin-bottom: 25px;
+}
+
+.left h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.stats {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.stats p {
+    font-size: 22px;
+    color: #94a3b8;
+}
+
+.about {
+    font-size: 24px;
+    color: gray;
+    line-height: 1.5;
+    width: 120%;
+    margin-bottom: 20px;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.follow {
+    padding: 16px 45px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: #fdfdfd;
+    cursor: pointer;
+}

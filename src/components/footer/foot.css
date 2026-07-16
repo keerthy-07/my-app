@@ -1,0 +1,51 @@
+.foot {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.foot-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-bottom: 70px;
+}
+
+.foot-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.foot-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.foot-links a:hover {
+  color: #111827;
+}
+
+.foot-text {
+  color: #666;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .foot-links {
+    gap: 25px;
+  }
+
+  .foot-links a {
+    font-size: 16px;
+  }
+
+  .foot-text {
+    font-size: 14px;
+  }
+}
