@@ -14,7 +14,7 @@ function Profile(props) {
             {/* <p>Posts: {props.posts}</p>
             <p>Followers: {props.followers}</p>
             <p>Following: {props.following}</p> */}
-            <h3>{props.subtitle}</h3>
+            <h4>{props.subtitle}</h4>
           </div>
 
           <p className="about">{props.about}</p>
