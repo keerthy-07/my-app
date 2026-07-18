@@ -127,9 +127,9 @@
     margin-top: 10%;
     margin: 10px auto; 
     display: block;
-    border-radius: 2%;
-    transform: translateX(50%);
-    transform: translateY(-50%);
+    border-radius: 10%;
+    transform: translateX(90%);
+    transform: translateY(-48%);
   }
 
   .left h2{
