@@ -97,8 +97,9 @@
 @media (max-width: 768px) {
 
   .cover{
-    height: auto;
+    height: 10px;
     padding: 30px 50px;
+    right: 110px;
   }
 
   .profile{
