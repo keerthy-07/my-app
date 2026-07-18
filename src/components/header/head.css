@@ -107,6 +107,7 @@ nav ul li{
     }
 
     .head{
+        position: fixed;
         flex-wrap:wrap;
         padding:15px 20px;
     }
