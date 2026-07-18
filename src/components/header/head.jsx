@@ -37,9 +37,9 @@ function Head(props) {
       <div className={`buttons ${menuOpen ? "active" : ""}`}>
         <Link to="/Login">
           <button className="log">LOGIN</button>
-
-          <button className="blocks">BLOCKS</button>
         </Link>
+          <button className="blocks">BLOCKS</button>
+        
       </div>
     </div>
   );
