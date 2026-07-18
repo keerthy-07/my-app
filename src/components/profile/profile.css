@@ -171,8 +171,14 @@
   }
 
   .stats h3{
-    font-size: 24px;
     color: #faf9f9;
+    width: fit-content;
+    margin: 15px auto;
+    font-size: 18px;
+    color: #faf9f9;
+    align-items: end;
+    text-align: end;
+    transform: translateY(-105px);
   }
 
   .about{
