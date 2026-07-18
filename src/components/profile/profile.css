@@ -140,6 +140,8 @@
     margin-top: 0;
     font-size: 35px;
     color: #faf9f9;
+    align-items: end;
+    text-align: end;
   }
 
   .profile h3{
@@ -147,11 +149,14 @@
     margin: 15px auto;
     font-size: 18px;
     color: #faf9f9;
+    align-items: end;
+    text-align: end;
   }
 
   .profile p{
     font-size: 18px;
-
+    align-items: end;
+    text-align: end;
   }
 
   .stats{
