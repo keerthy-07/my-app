@@ -98,8 +98,9 @@
 
   .cover{
     display: flex;
+    margin-top: 10%;
     flex-direction: column;
-    height: 25%;
+    height: 35%;
     padding: 50px 50px;
     right: 110px;
   }

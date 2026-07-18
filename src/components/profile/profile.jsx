@@ -19,7 +19,7 @@ function Profile(props) {
 
           <p className="about">{props.about}</p>
 
-          <h4 onClick={()=>{window.open("/resume.pdf");}}>VIEW CV →</h4>
+          <h3 onClick={()=>{window.open("/resume.pdf");}}>VIEW CV →</h3>
         </div>
 
         
