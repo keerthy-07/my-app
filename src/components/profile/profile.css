@@ -98,7 +98,7 @@
 
   .cover{
     height: auto;
-    padding: 30px 20px;
+    padding: 30px 50px;
   }
 
   .profile{
@@ -124,6 +124,7 @@
     width: 220px;
     height: 280px; 
     display: block;
+    border-radius: 2px;
   }
 
   .left h2{
