@@ -29,14 +29,14 @@
 }
 
 .left img {
-    position: static;
+    position: absolute;
     right: 220px;
     width: 400px;
     height: 490px;
-    border-radius: 1000px;
+    border-radius: 45%;
     object-fit: cover;
-    margin-top: -400px;
-    margin-bottom: 5px;
+    margin-top: -20%;
+    margin-bottom: 15%;
     filter: drop-shadow(0 0 20px #fcc401);
 }
 
@@ -120,7 +120,7 @@
   }
 
   .left img{
-    position: static;
+    position: relative;
     width: 220px;
     height: 220px;
     margin: 0 auto 20px;
@@ -130,12 +130,14 @@
   .left h2{
     margin-top: 0;
     font-size: 38px;
+    color: #faf9f9;
   }
 
-  .left h4{
+  .left h3{
     width: fit-content;
     margin: 15px auto;
     font-size: 18px;
+    color: #faf9f9;
   }
 
   .left p{
@@ -150,6 +152,7 @@
 
   .stats h3{
     font-size: 24px;
+    color: #faf9f9;
   }
 
   .about{
