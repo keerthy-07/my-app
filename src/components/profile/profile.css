@@ -136,23 +136,20 @@
     transform: translate(115px, -150px);
   }
 
-  .left h2{
-    align-items: end;
+  .profile h2{
     margin-top: 0;
     font-size: 35px;
     color: #faf9f9;
   }
 
-  .left h3{
-    align-items: end;
+  .profile h3{
     width: fit-content;
     margin: 15px auto;
     font-size: 18px;
     color: #faf9f9;
   }
 
-  .left p{
-    align-items: end;
+  .profile p{
     font-size: 18px;
 
   }
