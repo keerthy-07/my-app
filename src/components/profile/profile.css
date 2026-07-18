@@ -97,6 +97,8 @@
 @media (max-width: 768px) {
 
   .cover{
+    display: flex;
+    flex-direction: column;
     height: 25%;
     padding: 50px 50px;
     right: 110px;
@@ -104,7 +106,7 @@
 
   .profile{
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 40px;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
@@ -121,15 +123,15 @@
   }
 
   .left img{
-    position: absolute;
+    position: static;
     width: 160px;
     height: 190px;
     margin-top: 10%;
-    margin: 10px auto; 
+    margin: 20px auto; 
     display: block;
     border-radius: 10%;
     right: 150px;
-    transform: translateY(-60%);
+    transform: none;
   }
 
   .left h2{
