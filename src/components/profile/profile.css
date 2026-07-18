@@ -126,7 +126,7 @@
     height: 260px;
     margin: 10px auto; 
     display: block;
-    border-radius: 100%;
+    border-radius: 2%;
     transform: translateX(15px);
   }
 
