@@ -8,7 +8,7 @@ function Head(props) {
 
 useEffect(() => {
   const handleScroll = () => {
-    setIsScrolled(window.scrollY > 10);
+    setIsScrolled(window.scrollY > 80);
   };
 
   window.addEventListener("scroll", handleScroll);

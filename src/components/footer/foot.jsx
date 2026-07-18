@@ -13,7 +13,7 @@ function Foot(props) {
         <li>{props.pric}</li>
         </div>
         <p className="foot-text">
-        © 2026 Made with Material Tailwind by Creative Tim.
+        © 2026 Mr_Jack.All Rights Reserved
       </p>
     </div>
 

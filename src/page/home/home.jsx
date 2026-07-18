@@ -1,8 +1,7 @@
 import avatar1 from "../../avatar1.jpg";
-import m4 from "../../m4.jpg";
-import blog from "../../components/blog.webp";
-import blogg from "../../components/blogg.webp";
-// import Button from "../../components/button/button";
+import a1 from "../../components/a1.webp";
+import b2 from "../../components/b2.png";
+import c3 from "../../components/c3.jpg";
 import Head from "../../components/header/head";
 import Box from "../../components/gridbox/box";
 import Foot from "../../components/footer/foot";
@@ -10,36 +9,37 @@ import Discoverbox from "../../components/gridbox/dicovercard";
 // import Form from "../../components/form/form";
 // import { useEffect } from "react";
 import Grid from "@mui/material/Grid";
-import '../../App.css';
+import "../../App.css";
 import Profile from "../../components/profile/profile";
-import './home.css';
+import "./home.css";
 import Form from "../../components/form/form";
+import Socialbar from "../../components/socialbar/socialbar";
+import About from "../../components/aboutme/aboutme";
+
 
 
 function Home() {
-const boxes = [
+  const boxes = [
     {
-      img: m4,
-      title: "Hydrogen-Powered Vehicles",
+      img: a1,
+      title: "Instagram Clone",
       description:
-        "This article delves into hydrogen fuel cells and their environmental benefits",
+        "A full-featured instagram clone with authentication and follow system",
     },
     {
-      img: blog,
-      title: "Timeless stone Masterpiece",
+      img: b2,
+      title: "Portfolio",
       description:
-        "Witness the breathtaking craftsmanship and enduring legacy of tamil nadu's most celebrated temple.",
+        "My personal portfolio website built with React and Tailwind CSS.",
     },
 
     {
-      img: blogg,
-      title: "Mars Colonization and Beyond",
+      img: c3,
+      title: "Weather App",
       description:
-        "This article takes readers on a journey through space exploration.",
+        "Shows live weather using API and turn it into a useful analysis..",
     },
   ];
-
-
 
   return (
     <>
@@ -47,65 +47,57 @@ const boxes = [
         <Head
           logo="MR_JACK"
           home="HOME"
-          about="ABOUT US"
-          contact="CONTACT US"
+          about="ABOUT"
+          contact="CONTACT"
           docs="DOCS"
         />
       </nav>
-
       
-      <Profile 
-      image={avatar1} 
-      name="JacK_SparroW" 
-      posts="323" 
-      followers="3.5k" 
-      following="260" 
-      about="A wordsmith who believes in the power of language to shape our
-              world, inspire change, and connect us all. I bring a unique
-              perspective to the writing, blending the knowledge and experiences
-              into thought-provoking narratives."/>
+       <Socialbar/>
+      <Profile
+        image={avatar1}
+        name="KEERTHY VASAN"
+        // posts="323"
+        // followers="3.5k"
+        // following="260"
+        subtitle="Python FullStack Developer |"
+        about="I build modern,responsive and user-friendly web applications using React, Django and other technologies."
+      />
+      <br></br>
 
-              <br></br>
-
-
-        <h1 className="check">Check my latest blog posts</h1>
-
+      <About />
+      <h1 className="check">Featured Projects</h1>
       <Grid container spacing={4}>
-        
-      {boxes.map((box) => (
-          
-            <Grid size={{ lg: 3, md: 6, xs: 12, sm: 6 }}>
-              <Box
-                img={box.img}
-                title={box.title}
-                description={box.description}
-              />
-            </Grid>
+        {boxes.map((box,index) => (
+          <Grid 
+          key={index}
+          size={{ lg: 3, md: 6, xs: 12, sm: 6 }}>
+            <Box
+              img={box.img}
+              title={box.title}
+              description={box.description}
+            />
+          </Grid>
         ))}
         <Grid size={{ lg: 3, md: 6, xs: 12, sm: 6 }}>
-        <Discoverbox />
+          <Discoverbox />
         </Grid>
-      
       </Grid>
-        <Form/>
+      <Form />
       <Foot
-        company="Company "
-        about="About Us"
-        team="Team"
-        product="Product"
-        blog="Blog"
-        pric="Pricing"/>
-       
-    
-
-      
+        company="GitHub |"
+        about="LinkedIn |"
+        team="Instagram |"
+        product="Email |"
+        blog="What's App |"
+        pric="FaceBook |"
+      />
       {/* <div>
         <Button label="login" btnType="Secondary" customStyle="after" />
         <Button label="block"  />        
 
       {/* <Button label="follow" className='extra'/> */}
       {/* </div>   */} */
-
       {/* <div className="head1"></div>
       <div className="container">
         <div className="profile-card">
@@ -135,7 +127,6 @@ const boxes = [
           </div>
         </div>
       </div> */}
-      
       {/* 
       <div className="box">
         <Box
@@ -157,22 +148,15 @@ const boxes = [
         />
        
       </div> */}
-      
-        {/* <div className="box" > */}
-        
-
+      {/* <div className="box" > */}
       {/* <div size={{ lg: 2, md: 6, xs: 12, sm: 6 }}>
         <Form data={Forms} />
       </div> */}
-
       {/* </div> */}
       {/* <div className="foot"> */}
-     
       {/* </div> */}
-      
     </>
-
-);
+  );
 }
 
-export default Home;   
+export default Home;

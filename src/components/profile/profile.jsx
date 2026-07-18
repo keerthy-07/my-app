@@ -8,23 +8,26 @@ function Profile(props) {
       <div className="profile">
         <div className="left">
           <img src={props.image} alt="img" />
-
+          <h5>Hello,I'm</h5>
           <h2>{props.name}</h2>
 
           <div className="stats">
-            <p>Posts: {props.posts}</p>
+            {/* <p>Posts: {props.posts}</p>
             <p>Followers: {props.followers}</p>
-            <p>Following: {props.following}</p>
+            <p>Following: {props.following}</p> */}
+            <h3>{props.subtitle}</h3>
           </div>
 
           <p className="about">{props.about}</p>
 
-          <h4>MORE ABOUT ME →</h4>
+          <h4 onClick={()=>{window.open("/resume.pdf");}}>VIEW CV →</h4>
         </div>
 
-        <div className="right">
-          <button className="follow">FOLLOW</button>
-        </div>
+        
+          
+          {/* <button className="download-btn" 
+          onClick={()=>{window.open("/resume.pdf");}}>View.CV</button>
+           */}
       </div>
     </>
   );

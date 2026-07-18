@@ -1,42 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .contact-section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 50px 8%;
-  background: #f7f7f7;
+  background: #0f0f0f;
   font-family: Arial, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  margin-top: 4%;
 }
+
+.heading img {
+  position: absolute;
+  margin-top: -12%;
+  left: 14%;
+  width: 200px;
+  height: 290px;
+  border-radius: 1000px;
+  object-fit: cover;
+  margin-bottom: 5px;
+} 
 
 .heading {
-  text-align: center;
+  margin-top: 5%;
   margin-bottom: 50px;
+  color: white;
 }
 
-.heading h1 {
+.heading h2 {
   font-size: 50px;
-  color: #1d1d1d;
+  color: #fdfbfb;
   margin-bottom: 10px;
 }
 
 .heading p {
-  color: #070707;
-  font-size: 20px;
+  color: #fcfafa;
+  font-size: 12px;
 }
 
 .contact-container {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  background: #fff;
+  background: #89878700;
   border-radius: 10px;
-  padding: 80px;
+  padding: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: 640px;
+  height: 200%;
+  width: 90%;
 }
 
 .form-box {
@@ -51,11 +63,12 @@
 .input-group {
   width: 100%;
   margin-bottom: 30px;
+  color: #f7f5f5;
 }
 
 .input-group label {
   display: block;
-  color: #666;
+  color: #f7f5f5;
   margin-bottom: 8px;
   font-size: 15px;
 }
@@ -64,11 +77,12 @@
 .input-group textarea {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #faf9f9;
   padding: 12px 0;
   outline: none;
   font-size: 16px;
   background: transparent;
+  color: #f7f5f5;
 }
 
 textarea {
@@ -77,8 +91,8 @@ textarea {
 
 .send-btn {
   margin-top: 20px;
-  background: #1e293b;
-  color: white;
+  background: #fcc401;
+  color: rgb(6, 6, 6);
   border: none;
   padding: 14px 32px;
   border-radius: 8px;
@@ -93,13 +107,8 @@ textarea {
 
 .info-box {
   flex: 0.8;
-  background: linear-gradient(
-    135deg,
-    #111827,
-    #1f2937,
-    #0f172a
-  );
-  color: white;
+  background-color: #fcc401;
+  color: rgb(0, 0, 0);
   border-radius: 12px;
   padding: 50px;
 }
@@ -110,7 +119,7 @@ textarea {
 }
 
 .info-box > p {
-  color: #d1d5db;
+  color: #000000;
   margin-bottom: 40px;
   line-height: 1.7;
 }

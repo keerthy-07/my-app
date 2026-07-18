@@ -15,15 +15,18 @@
     left:0;
     z-index: 15;
     font-size: .75rem;
-    background: rgba(12, 12, 12, 0.395);    
-    color: rgb(255, 253, 253);
+    background: rgb(12, 12, 12);    
+    color: #fcc401;
     transition: 0.3s;
     font-weight: bold;
+    
 }
 
 .head h2{
     font-size:28px;
     font-weight:700;
+    color:#fcc401;
+    text-shadow: 0 0 40px #fcc401;
 }
 
 nav ul{
@@ -35,6 +38,7 @@ nav ul{
 nav ul li{
     cursor:pointer;
     font-size:16px;
+    color:#fcfafa;
 }
 
 .buttons{
@@ -44,7 +48,7 @@ nav ul li{
 }
 
 .blocks{
-    background:#ffffff4d;
+    background:#fcc401;
     color:#000000;
     border:none;
     padding:10px 20px;
@@ -64,8 +68,26 @@ nav ul li{
 }
 
 .head.scrolled {
-  background: rgb(250, 248, 248);
-  color: rgb(0, 0, 0);
+  background: #fcc401;
+  color: rgb(4, 4, 4);
+}
+
+.head.scrolled h2 {
+    color: black;
+}
+
+.head.scrolled .log {
+    background-color: #000000;
+    color: #fcc401;
+}
+
+.head.scrolled .blocks{
+    background-color: #fcfafa;
+    color: #000000;
+}
+
+.head.scrolled li{
+    color: #000000;
 }
 
 @media(max-width:992px){

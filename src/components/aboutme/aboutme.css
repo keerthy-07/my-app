@@ -1,0 +1,125 @@
+.about-card {
+  width: 95%;
+  height: 640px;
+  margin: auto;
+  margin-top: 11%;
+  display: flex;
+  gap: 10px;
+  padding: 35px;
+  border-radius: px;
+  background: rgba(49, 48, 48, 0);
+  border: 5px solid #fcc401;
+  /* box-shadow:0 0 20px #fcc401,0 0 40px#fcc401; */
+  backdrop-filter: blur(15px);
+}
+
+.about-left,
+.about-right {
+  flex: 1;
+  align-self: center;
+  font-weight: bold;
+}
+
+.about-left h2,
+.about-right h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 25px;
+
+}
+
+.about-left p {
+  color: #ffffff;
+  line-height: 1.8;
+  font-size: 19px;
+  margin-bottom: 25px;
+  font-family: none;
+  /* font-family: 'Segoe Print'; */
+}
+
+.about-left ul {
+  list-style: none;
+}
+
+.about-left ul li {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.about-btn {
+  margin-top: 20px;
+  padding: 14px 25px;
+  border-radius: 10px;
+  border: 1px solid #fcc401;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.about-btn:hover {
+  background: #fcc401;
+  color: #000000;
+  transform: translateY(-3px);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 65px;
+  
+
+}
+
+.skill-box {
+  margin-top: 28px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  color:black;
+  background: #fcc401;
+  border: 1px solid #fcc401;
+  transition: 0.4s;
+  font-weight: bold;
+  /* box-shadow: 0 0 25px #fcc401; */
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(4, 4, 4, 0.4);
+  background: #fdfdfc;
+  color: #000000;
+}
+
+/* .about-left:hover.hide {
+    transform: translate(-120px, -50%);
+    opacity: 0;
+    pointer-events: none;
+} */
+
+@media (max-width: 900px) {
+  .about-card {
+    flex-direction: column;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-left h2,
+  .about-right h2 {
+    font-size: 24px;
+  }
+
+  .about-left p {
+    font-size: 15px;
+  }
+}

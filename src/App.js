@@ -1,7 +1,7 @@
 
 import Login from "./page/login/login";
 import Home from "./page/home/home";
-import { Routes,Route} from "react-router-dom";
+import { Route,Routes} from "react-router-dom";
 
 
 
@@ -13,9 +13,10 @@ return (
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/"Login element={<Login/>}/>
-        <Route path="/"Home element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/home" element={<Home/>}/>
       </Routes>
+  
   </>
   );
 }

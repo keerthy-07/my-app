@@ -1,16 +1,18 @@
 import React from "react";
 import "./form.css";
+import lets from "./lets.png";
 
 const Form = () => {
   return (
     <section className="contact-section">
       <div className="heading">
-        <h1>Say Hi!</h1>
-        <p>Any questions or remarks? Just write us a message!</p>
+      <img src={lets} alt="png"/>
+        
+        <h2>Let's Connect!</h2>
+        <p>I'm always open to discussing new oportunities or intresting projects!</p>
       </div>
 
       <div className="contact-container">
-        {/* Left Side Form */}
 
         <div className="form-box">
           <div className="row">
@@ -38,8 +40,6 @@ const Form = () => {
           <button className="send-btn">SEND MESSAGE</button>
         </div>
 
-        {/* Right Side Contact Info */}
-
         <div className="info-box">
           <h2>Contact Information</h2>
 
@@ -49,18 +49,15 @@ const Form = () => {
           </p>
 
           <div className="info-item">
-            <span>📞</span>
-            <p>+91 9363468371</p>
+            <p>➣ +91 93XXXXXXXX</p>
           </div>
 
           <div className="info-item">
-            <span>✉️</span>
-            <p>mrjacksparrow003@mail.com</p>
+            <p>➣ mrjacksparrow003@mail.com</p>
           </div>
 
           <div className="info-item">
-            <span>🎫</span>
-            <p>Open Support Ticket</p>
+            <p>➣ @KeerthyOfficial</p>
           </div>
         </div>
       </div>

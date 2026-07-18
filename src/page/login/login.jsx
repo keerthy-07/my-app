@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -14,7 +14,7 @@ const Login = () => {
       <p>Create New Account</p>
 
       <p>Forgot Password?</p>
-      <Link to="/Home">
+      <Link to="/home">
         <button onClick={() => null}>Home</button>
       </Link>
     </div>    
