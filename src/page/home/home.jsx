@@ -60,7 +60,7 @@ function Home() {
         // posts="323"
         // followers="3.5k"
         // following="260"
-        subtitle="Python FullStack Developer |"
+        subtitle="| Python FullStack Developer"
         about="I build modern,responsive and user-friendly web applications using React, Django and other technologies."
       />
       <br></br>
