@@ -76,6 +76,7 @@
   }
 
   .social-bar.hide {
+    transform: translateY(-70%);
     transform: translate(-80px, -50%);
   }
 }
