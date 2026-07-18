@@ -51,13 +51,14 @@
     pointer-events: none;
 }
 
+
 @media screen and (max-width: 768px) {
 
   .social-bar {
     position: fixed;
     left: 10px;
     top: 50%;
-    transform: translateY(-70%);
+    transform: translateY(-50%);
     width: 55px;
     padding: 12px 6px;
     gap: 15px;

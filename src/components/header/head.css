@@ -98,6 +98,7 @@ nav ul li{
 }
 
 
+
 @media (max-width:768px){
 
     .menu-icon{
@@ -108,6 +109,7 @@ nav ul li{
     .head{
         flex-wrap:wrap;
         padding:15px 20px;
+        transform: translateX(50px);
     }
 
     nav{
