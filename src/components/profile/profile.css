@@ -126,8 +126,8 @@
     height: 260px;
     margin: 10px auto; 
     display: block;
-    border-radius: 2px;
-    transform: translateX(40px);
+    border-radius: 15px;
+    transform: translateX(20px);
   }
 
   .left h2{
