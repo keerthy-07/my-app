@@ -90,10 +90,52 @@ nav ul li{
     color: #000000;
 }
 
-/* ===========================
-   Tablet & Mobile
-=========================== */
-@media screen and (max-width:768px){
+.menu-icon{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    color:#fcc401;
+}
+
+@media (max-width:768px){
+
+    .menu-icon{
+        display:block;
+    }
+
+    .head{
+        flex-wrap:wrap;
+        padding:15px 20px;
+    }
+
+    nav{
+        display:none;
+        width:100%;
+    }
+
+    nav.active{
+        display:block;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        gap:15px;
+        margin-top:20px;
+    }
+
+    .buttons{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        margin-top:15px;
+    }
+
+    .buttons.active{
+        display:flex;
+    }
+}
+/* @media screen and (max-width:768px){
 
     .head{
         padding:15px 20px;
@@ -129,9 +171,6 @@ nav ul li{
     }
 }
 
-/* ===========================
-   Mobile (480px)
-=========================== */
 @media screen and (max-width:480px){
 
     .head{
@@ -172,7 +211,7 @@ nav ul li{
         padding:12px;
         font-size:15px;
     }
-}
+} */
 
 
 
