@@ -109,7 +109,6 @@ nav ul li{
     .head{
         flex-wrap:wrap;
         padding:15px 20px;
-        transform: translateY(-70%);
     }
 
     nav{
