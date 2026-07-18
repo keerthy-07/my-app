@@ -57,6 +57,7 @@
         flex-direction:column;
         padding:15px;
         text-align:center;
+        transform: translateY(-50%);
     }
 
     .head h2{
