@@ -122,8 +122,7 @@
   .left img{
     position: static;
     width: 220px;
-    height: 220px;
-    margin: 0 auto 20px;
+    height: 280px; 
     display: block;
   }
 
