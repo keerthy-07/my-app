@@ -121,7 +121,7 @@
   }
 
   .left img{
-    position: static;
+    position: absolute;
     width: 160px;
     height: 190px;
     margin-top: 10%;
