@@ -135,12 +135,14 @@
   }
 
   .left h2{
+    align-items: end;
     margin-top: 0;
-    font-size: 38px;
+    font-size: 35px;
     color: #faf9f9;
   }
 
   .left h3{
+    align-items: end;
     width: fit-content;
     margin: 15px auto;
     font-size: 18px;
@@ -148,7 +150,9 @@
   }
 
   .left p{
-    font-size: 20px;
+    align-items: end;
+    font-size: 18px;
+
   }
 
   .stats{
