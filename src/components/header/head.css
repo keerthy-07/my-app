@@ -127,7 +127,7 @@ nav ul li{
         margin-top:20px;
     }
 
-    .buttons,.blocks,.log{
+    .buttons {
         display:none;
         flex-direction:column;
         width:100%;
