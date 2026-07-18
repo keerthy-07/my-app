@@ -128,8 +128,8 @@
     margin: 10px auto; 
     display: block;
     border-radius: 2%;
-    transform: translateX(-60px);
-    transform: translateY(-500%);
+    transform: translateX(-20%);
+    transform: translateY(-30%);
   }
 
   .left h2{
