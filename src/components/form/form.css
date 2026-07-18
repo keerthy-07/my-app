@@ -139,17 +139,139 @@ textarea {
   font-size: 18px;
 }
 
-@media (max-width: 900px) {
-  .contact-container {
-    flex-direction: column;
-    padding: 30px;
-  }
+@media screen and (max-width:768px){
 
-  .row {
-    flex-direction: column;
-  }
+    .contact-section{
+        padding: 100px 20px;
+        margin-top: 0;
+    }
 
-  .heading h1 {
-    font-size: 38px;
-  }
+    .heading{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .heading img{
+        position: static;
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .heading h2{
+        font-size: 36px;
+    }
+
+    .heading p{
+        font-size: 16px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        gap: 30px;
+    }
+
+    .form-box,
+    .info-box{
+        width: 100%;
+        flex: 1;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .input-group{
+        margin-bottom: 20px;
+    }
+
+    .send-btn{
+        width: 100%;
+    }
+
+    .info-box{
+        padding: 30px;
+    }
+
+    .info-box h2{
+        font-size: 28px;
+    }
+
+    .info-item{
+        gap: 12px;
+    }
+
+    .info-item span{
+        font-size: 20px;
+    }
+
+    .info-item p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .contact-section{
+        padding: 80px 15px;
+    }
+
+    .heading img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .heading h2{
+        font-size: 28px;
+    }
+
+    .heading p{
+        font-size: 14px;
+    }
+
+    .contact-container{
+        padding: 20px;
+    }
+
+    .input-group label{
+        font-size: 14px;
+    }
+
+    .input-group input,
+    .input-group textarea{
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .send-btn{
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .info-box{
+        padding: 20px;
+    }
+
+    .info-box h2{
+        font-size: 24px;
+    }
+
+    .info-item{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .info-item span{
+        font-size: 18px;
+    }
+
+    .info-item p{
+        font-size: 14px;
+    }
 }

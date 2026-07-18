@@ -99,27 +99,93 @@
     pointer-events: none;
 } */
 
-@media (max-width: 900px) {
-  .about-card {
-    flex-direction: column;
-  }
+@media screen and (max-width: 768px) {
 
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .about-card{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 100px;
+        gap: 25px;
+    }
+
+    .about-left,
+    .about-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-left h2,
+    .about-right h2{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .about-left p{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .about-left ul{
+        padding: 0;
+    }
+
+    .about-left ul li{
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .about-btn{
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .skills-grid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .skill-box{
+        margin-top: 0;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .about-right img{
+        width: 250px;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
 }
+@media screen and (max-width: 480px){
 
-@media (max-width: 500px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
+    .about-card{
+        padding: 15px;
+    }
 
-  .about-left h2,
-  .about-right h2 {
-    font-size: 24px;
-  }
+    .about-left h2,
+    .about-right h2{
+        font-size: 22px;
+    }
 
-  .about-left p {
-    font-size: 15px;
-  }
+    .about-left p{
+        font-size: 15px;
+    }
+
+    .skills-grid{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .about-btn{
+        font-size: 15px;
+    }
+
+    .about-right img{
+        width: 200px;
+    }
 }
