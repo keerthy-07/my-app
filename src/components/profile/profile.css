@@ -131,7 +131,7 @@
     display: block;
     border-radius: 10%;
     right: 150px;
-    transform: translate(115px, -110px);
+    transform: translate(115px, -150px);
   }
 
   .left h2{
