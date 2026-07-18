@@ -94,13 +94,14 @@ nav ul li{
     display:none;
     font-size:30px;
     cursor:pointer;
-    color:#fcc401;
+    color:#fcfcfc;
 }
 
 @media (max-width:768px){
 
     .menu-icon{
         display:block;
+        justify-content: end;
     }
 
     .head{
