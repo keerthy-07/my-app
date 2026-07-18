@@ -29,7 +29,7 @@
 }
 
 .left img {
-    position: absolute;
+    position: static;
     right: 220px;
     width: 400px;
     height: 490px;

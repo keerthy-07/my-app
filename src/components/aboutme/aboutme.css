@@ -1,6 +1,7 @@
 .about-card {
   width: 95%;
-  height: 640px;
+  max-width: 1200px;
+  height: auto;
   margin: auto;
   margin-top: 11%;
   display: flex;
