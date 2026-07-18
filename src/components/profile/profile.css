@@ -170,7 +170,7 @@
     align-items: center;
   }
 
-  .left h3{
+  .left h4{
     color: #faf9f9;
     width: fit-content;
     margin: 15px auto;
@@ -187,7 +187,7 @@
     text-align: justify;
   }
 
-  .left h4{
+  .left h3{
     width: 100%;
     max-width: 250px;
     margin: 20px 10px;
