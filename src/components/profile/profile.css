@@ -147,7 +147,7 @@
     transform: translateY(-105px);
   }
 
-  .profile h4{
+  .stats h4{
     width: fit-content;
     margin: 15px auto;
     font-size: 18px;
@@ -170,7 +170,7 @@
     align-items: center;
   }
 
-  .stats h3{
+  .left h3{
     color: #faf9f9;
     width: fit-content;
     margin: 15px auto;
